@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public final class LoggerFragment extends Fragment {
+public class LoggerFragment extends Fragment {
 
   private TextView mLogView;
   private StringBuilder mLogBuilder;
