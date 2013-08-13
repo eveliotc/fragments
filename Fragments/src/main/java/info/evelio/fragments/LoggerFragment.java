@@ -86,6 +86,12 @@ public class LoggerFragment extends Fragment {
   }
 
   @Override
+  public void onSaveInstanceState(Bundle outState) {
+    super.onSaveInstanceState(outState);
+    log("onSaveInstanceState");
+  }
+
+  @Override
   public void onDestroyView() {
     super.onDestroyView();
     log("onDestroyView");

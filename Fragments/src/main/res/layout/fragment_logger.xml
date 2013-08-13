@@ -25,4 +25,10 @@
         android:layout_height="wrap_content"
         />
   </ScrollView>
+
+  <FrameLayout
+      android:id="@+id/child_container"
+      android:layout_width="match_parenqt"
+      android:layout_height="match_parent"
+      />
 </FrameLayout>
