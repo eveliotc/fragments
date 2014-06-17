@@ -27,10 +27,7 @@ local.properties
 out/
 
 # Gradle
-gradle/
-.gradle
-gradlew
-gradlew.bat
+.gradle*
 build/
 
 # lib(s)
